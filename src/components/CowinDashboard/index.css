@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #161625;
+}
+.cowin-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 87%;
+  max-width: 1149px;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.cowin-logo {
+  width: 60px;
+  height: 60px;
+}
+.cowin-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 600;
+  color: #2cc6c6;
+  margin-left: 20px;
+}
+.cowin-sub-heading {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 600;
+  color: #cbd5e1;
+  margin-top: 15px;
+}
+.failure-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.failure-logo-image {
+  height: 100px;
+  width: 100px;
+}
+.failure-description {
+  font-family: 'Bree Serif';
+  font-size: 28px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 15px;
+}
